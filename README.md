@@ -1,0 +1,731 @@
+[riversouthrestoration.html](https://github.com/user-attachments/files/28675107/riversouthrestoration.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Water Damage Restoration Riverside South Ottawa | 24/7 Emergency Service</title>
+<meta name="description" content="Water damage restoration in Riverside South, Ottawa. 24/7 emergency response, flood cleanup, mold remediation. Fast local response. Call now for a free estimate.">
+<meta name="keywords" content="water damage restoration Riverside South, flood cleanup Ottawa, emergency water removal Riverside South, mold remediation Ottawa south, basement flooding Riverside South">
+
+<!-- Local Business Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Riverside South Water Damage Restoration",
+  "description": "24/7 emergency water damage restoration serving Riverside South, Ottawa and surrounding areas.",
+  "telephone": "(613) 555-0199",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Riverside South",
+    "addressRegion": "Ottawa, ON",
+    "addressCountry": "CA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.3167,
+    "longitude": -75.6500
+  },
+  "openingHours": "Mo-Su 00:00-24:00",
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.3167,
+      "longitude": -75.6500
+    },
+    "geoRadius": "15000"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Water Damage Services",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emergency Water Removal"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Flood Cleanup"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mold Remediation"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Basement Flooding Cleanup"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Structural Drying"}}
+    ]
+  }
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How fast can you respond to water damage in Riverside South?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We respond to water damage emergencies in Riverside South within 60 minutes, 24 hours a day, 7 days a week including holidays."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with insurance companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We work directly with all major insurance providers and can help document damage and file your claim."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does water damage restoration cost in Ottawa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Costs vary depending on the size and severity of the damage. We offer free on-site estimates and most work is covered by home insurance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can water damage cause mold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Mold can begin growing within 24–48 hours of water damage. Fast professional drying and remediation prevents mold from spreading."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --navy: #0a1628;
+    --blue: #1a3a6b;
+    --accent: #e8401c;
+    --accent-light: #ff5c38;
+    --white: #ffffff;
+    --offwhite: #f4f5f7;
+    --gray: #8a9bb0;
+    --light-border: #dde3ec;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--white);
+    color: var(--navy);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* STICKY MOBILE CALL BAR */
+  .mobile-call-bar {
+    display: none;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: var(--accent);
+    z-index: 999;
+    padding: 14px 20px;
+    text-align: center;
+  }
+  .mobile-call-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+  }
+
+  @media (max-width: 768px) {
+    .mobile-call-bar { display: block; }
+    body { padding-bottom: 56px; }
+  }
+
+  /* HEADER */
+  header {
+    background: var(--navy);
+    padding: 14px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 3px solid var(--accent);
+  }
+
+  .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    color: var(--white);
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+
+  .logo span { color: var(--accent); }
+
+  .header-cta a {
+    background: var(--accent);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    white-space: nowrap;
+    transition: background 0.2s;
+  }
+
+  .header-cta a:hover { background: var(--accent-light); }
+
+  /* HERO */
+  .hero {
+    background: var(--navy);
+    color: white;
+    padding: 70px 24px 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 60% 0%, rgba(26,58,107,0.9) 0%, rgba(10,22,40,1) 70%);
+  }
+
+  .hero-content { position: relative; z-index: 1; max-width: 780px; margin: 0 auto; }
+
+  .hero-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    border-radius: 2px;
+    margin-bottom: 22px;
+  }
+
+  .hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(42px, 8vw, 78px);
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 span { color: var(--accent); }
+
+  .hero p {
+    font-size: clamp(16px, 2.5vw, 19px);
+    color: rgba(255,255,255,0.8);
+    max-width: 580px;
+    margin: 0 auto 36px;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: white;
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    transition: background 0.2s, transform 0.1s;
+    display: inline-block;
+  }
+
+  .btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); }
+
+  .btn-secondary {
+    background: transparent;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 2px solid rgba(255,255,255,0.3);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    transition: border-color 0.2s;
+  }
+
+  .btn-secondary:hover { border-color: white; }
+
+  .hero-trust {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+  }
+
+  .hero-trust span { display: flex; align-items: center; gap: 6px; }
+  .hero-trust span::before { content: '✓'; color: var(--accent); font-weight: 700; }
+
+  /* URGENCY STRIP */
+  .urgency-strip {
+    background: var(--accent);
+    color: white;
+    text-align: center;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+  }
+
+  /* SERVICES */
+  .section { padding: 72px 24px; }
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(32px, 5vw, 50px);
+    line-height: 1.05;
+    margin-bottom: 14px;
+  }
+
+  .section-sub {
+    color: var(--gray);
+    font-size: 17px;
+    max-width: 560px;
+    margin-bottom: 48px;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+
+  .service-card {
+    border: 1.5px solid var(--light-border);
+    border-radius: 8px;
+    padding: 28px 26px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    position: relative;
+  }
+
+  .service-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 20px rgba(232,64,28,0.08);
+  }
+
+  .service-card.featured {
+    border-color: var(--accent);
+    background: var(--offwhite);
+  }
+
+  .featured-tag {
+    position: absolute;
+    top: -1px; right: 20px;
+    background: var(--accent);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 0 0 4px 4px;
+  }
+
+  .service-icon {
+    font-size: 28px;
+    margin-bottom: 14px;
+  }
+
+  .service-card h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
+
+  .service-card p {
+    color: var(--gray);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* WHY US */
+  .why-section {
+    background: var(--offwhite);
+    padding: 72px 24px;
+  }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 32px;
+    margin-top: 48px;
+  }
+
+  .why-item { text-align: center; }
+
+  .why-number {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 54px;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .why-item h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .why-item p {
+    color: var(--gray);
+    font-size: 14px;
+  }
+
+  /* PROCESS */
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0;
+    margin-top: 48px;
+    position: relative;
+  }
+
+  .step {
+    padding: 24px;
+    text-align: center;
+    position: relative;
+  }
+
+  .step-num {
+    width: 48px; height: 48px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    margin: 0 auto 16px;
+  }
+
+  .step h4 { font-weight: 700; margin-bottom: 8px; }
+  .step p { color: var(--gray); font-size: 14px; }
+
+  /* FAQ */
+  .faq-section { background: var(--offwhite); padding: 72px 24px; }
+
+  .faq-list { margin-top: 48px; max-width: 760px; }
+
+  .faq-item {
+    border-bottom: 1.5px solid var(--light-border);
+    padding: 22px 0;
+  }
+
+  .faq-item:first-child { border-top: 1.5px solid var(--light-border); }
+
+  .faq-q {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .faq-a {
+    color: var(--gray);
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* CTA SECTION */
+  .cta-section {
+    background: var(--navy);
+    color: white;
+    padding: 80px 24px;
+    text-align: center;
+  }
+
+  .cta-section h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(34px, 6vw, 60px);
+    margin-bottom: 16px;
+  }
+
+  .cta-section h2 span { color: var(--accent); }
+
+  .cta-section p {
+    color: rgba(255,255,255,0.7);
+    font-size: 18px;
+    margin-bottom: 36px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-phone {
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(36px, 7vw, 64px);
+    color: var(--accent);
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    transition: color 0.2s;
+  }
+
+  .cta-phone:hover { color: var(--accent-light); }
+
+  /* FOOTER */
+  footer {
+    background: #060e1a;
+    color: rgba(255,255,255,0.5);
+    padding: 28px 24px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  footer a { color: rgba(255,255,255,0.5); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<!-- STICKY MOBILE CALL BAR -->
+<div class="mobile-call-bar">
+  <a href="tel:6135550199">📞 CALL NOW — (613) 555-0199 — 24/7 Emergency</a>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <div class="logo">Riverside South<br><span>Water Damage Restoration</span></div>
+    <div class="header-cta">
+      <a href="tel:6135550199">📞 (613) 555-0199</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">⚡ 60-Minute Emergency Response</div>
+    <h1>Water Damage<br><span>Restoration</span><br>Riverside South</h1>
+    <p>Flooding, burst pipes, or basement backup — we're on-site fast. Serving Riverside South and Ottawa South 24/7.</p>
+    <div class="hero-actions">
+      <a href="tel:6135550199" class="btn-primary">📞 Call Now — Free Estimate</a>
+      <a href="#services" class="btn-secondary">Our Services</a>
+    </div>
+    <div class="hero-trust">
+      <span>Licensed & Insured</span>
+      <span>Insurance Claim Help</span>
+      <span>Available 24/7</span>
+      <span>Local Riverside South Team</span>
+    </div>
+  </div>
+</section>
+
+<!-- URGENCY STRIP -->
+<div class="urgency-strip">
+  🚨 Water damage spreads within hours — every minute counts. Call (613) 555-0199 now.
+</div>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="section-inner">
+    <div class="section-label">What We Do</div>
+    <h2 class="section-title">Emergency Water Damage Services</h2>
+    <p class="section-sub">Fast, professional restoration for every type of water damage in Riverside South and Ottawa South.</p>
+    <div class="services-grid">
+
+      <div class="service-card featured">
+        <div class="featured-tag">Most Requested</div>
+        <div class="service-icon">🌊</div>
+        <h3>Emergency Water Removal</h3>
+        <p>Standing water removed fast using industrial extraction equipment. We stop damage from spreading within the first hour.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🏠</div>
+        <h3>Basement Flooding Cleanup</h3>
+        <p>Basement backups and sewer overflow cleaned, sanitized, and dried. Full restoration including contents and flooring.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">💧</div>
+        <h3>Burst Pipe Damage Repair</h3>
+        <p>Frozen or burst pipes cause rapid water spread. We extract, dry, and restore walls and flooring before mold sets in.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🔬</div>
+        <h3>Mold Remediation</h3>
+        <p>Mold begins growing within 48 hours of water damage. We identify, contain, and safely remove all affected materials.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">💨</div>
+        <h3>Structural Drying</h3>
+        <p>Industrial-grade dehumidifiers and air movers restore safe moisture levels inside walls, ceilings, and subfloors.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📋</div>
+        <h3>Insurance Claim Support</h3>
+        <p>We work with your insurance provider directly — documenting damage, preparing reports, and helping maximize your claim.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why-section">
+  <div class="section-inner">
+    <div class="section-label">Why Choose Us</div>
+    <h2 class="section-title">Riverside South's Trusted<br>Restoration Team</h2>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-number">60</div>
+        <h4>Minute Response</h4>
+        <p>On-site within one hour anywhere in Riverside South, guaranteed.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-number">24/7</div>
+        <h4>Always Available</h4>
+        <p>Emergencies don't follow business hours. Neither do we.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-number">100%</div>
+        <h4>Insurance Approved</h4>
+        <p>We work with all major Ontario insurers and handle the paperwork.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-number">Local</div>
+        <h4>Riverside South Based</h4>
+        <p>We know the neighbourhoods, the homes, and the common issues here.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-label">How It Works</div>
+    <h2 class="section-title">From Call to Fully Restored</h2>
+    <p class="section-sub">A clear, fast process so you know exactly what to expect.</p>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h4>You Call</h4>
+        <p>Reach us 24/7. We assess the situation immediately over the phone.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h4>We Arrive in 60 Min</h4>
+        <p>Our team arrives with equipment ready to contain and extract.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h4>Damage Assessment</h4>
+        <p>Full inspection, moisture mapping, and insurance documentation.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h4>Extraction & Drying</h4>
+        <p>Water removed, industrial drying equipment placed, monitoring begins.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <h4>Full Restoration</h4>
+        <p>Repairs, sanitization, and final inspection. Your home back to normal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section">
+  <div class="section-inner">
+    <div class="section-label">Common Questions</div>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <div class="faq-q">How fast can you respond to water damage in Riverside South?</div>
+        <div class="faq-a">We respond to water damage emergencies in Riverside South within 60 minutes, 24 hours a day, 7 days a week including holidays.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Do you work with insurance companies?</div>
+        <div class="faq-a">Yes. We work directly with all major insurance providers and can help document damage, prepare reports, and file your claim on your behalf.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">What does water damage restoration cost in Ottawa?</div>
+        <div class="faq-a">Costs vary depending on the size and severity of the damage. We provide free on-site estimates and most residential water damage is covered by home insurance.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Can water damage cause mold?</div>
+        <div class="faq-a">Yes. Mold can begin growing within 24–48 hours of water intrusion. Fast professional extraction and structural drying prevents mold from spreading and causing health issues.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Do you service areas near Riverside South?</div>
+        <div class="faq-a">Yes. In addition to Riverside South, we serve Barrhaven, Manotick, Findlay Creek, Gloucester, and surrounding Ottawa South communities.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Don't Wait —<br><span>Water Damage Gets Worse</span></h2>
+  <p>Every hour without professional extraction increases damage and mold risk. Call now for immediate help.</p>
+  <div>
+    <a href="tel:6135550199" class="cta-phone">(613) 555-0199</a>
+  </div>
+  <a href="tel:6135550199" class="btn-primary" style="font-size:18px; padding: 18px 40px;">📞 Call for a Free Estimate</a>
+  <p style="margin-top: 20px; font-size: 14px; color: rgba(255,255,255,0.4);">Available 24/7 · Riverside South, Ottawa · Licensed & Insured</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Riverside South Water Damage Restoration · Ottawa, ON · <a href="tel:6135550199">(613) 555-0199</a> · Available 24/7</p>
+  <p style="margin-top: 8px;"><a href="#">Privacy Policy</a> · Serving Riverside South, Barrhaven, Findlay Creek, Manotick & Ottawa South</p>
+</footer>
+
+</body>
+</html>
